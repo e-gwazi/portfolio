@@ -166,10 +166,9 @@ p {
   text-transform: uppercase;
   color: antiquewhite;
   line-height: 32px;
-  
 }
 .follow1 {
-  display: block;
+  display: inline-block;
   font-family: Montserrat;
   text-transform: uppercase;
   color: antiquewhite;
