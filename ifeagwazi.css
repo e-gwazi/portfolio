@@ -1,0 +1,193 @@
+body {
+  background-color: whitesmoke;
+  padding: 0;
+}
+html, body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+.logo {
+  width: 200px;
+}
+.logo-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0 55px 0;
+  text-align: center;
+}
+.logo-div-primary {
+  flex: 1;
+  display: inline-block;
+}
+.menu-div {
+  flex: 1;
+  display: inline-block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.material-symbols-outlined {
+  color: rgb(3, 21, 84);
+  transition: ease-in .2s;
+  display: inline-block;
+}
+.material-symbols-outlined:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.material-symbols-outlined:active {
+  opacity: 1;
+  transition: none;
+}
+.content a{
+    display: block;
+    color: #2d3748;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.content {
+    display: none;
+    background-color: hsl(0, 0%, 95%);
+    box-shadow: 0 0 4px black;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    margin-top: 39px;
+}
+.drop {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.drop:hover .content {
+    display: block;
+}
+.menu-div a:hover {
+    background-color: hsl(0, 0%, 90%);
+}
+p {
+  color: #2d3748;
+  font-family: Lora;
+  line-height: 26px;
+  cursor: default;
+}
+.body-div {
+  margin: 50px 50px 0 50px;
+} 
+.hie {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  color: #696969;
+  font-size: 17px;
+}
+.normal {
+  color: #696969;
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: Merriweather;
+  line-height: 1.6;
+  margin-bottom: 70px;
+}
+.perfect {
+  color: rgb(3, 21, 84);
+  text-decoration: underline;
+}
+.header-div {
+  margin-bottom: 40px;
+}
+.paragraph {
+  margin: 20px 0 0 0;
+}
+.contact {
+  color: rgb(3, 21, 84);
+  font-family: Merriweather;
+  line-height: 1.6;
+  display: inline-block;
+  font-size: 25px;
+  transition: ease-in .9s;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-decoration: none;
+  transition: text-decoration 0.7s ease;
+}
+.contact:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.about-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(3, 21, 84);
+  color: white;
+  margin: 0 auto;
+  width: 100vw;
+  height: 75vh;
+  padding: 100px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.acc {
+  color: white;
+  font-family: Montserrat;
+  line-height: 34px;
+  font-size: 50px;
+  display: block;
+  transition: opacity, text-decoration, margin-left 0.4s ease-in-out;
+  text-decoration: none;
+}
+.acc:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+  margin-left: 5px;
+}
+.acc-social {
+  margin-top: 15px;
+}
+.follow {
+  display: block;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  color: antiquewhite;
+  line-height: 32px;
+  
+}
+.follow1 {
+  display: block;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  color: antiquewhite;
+  line-height: 40px;
+  transition: opacity, text-decoration, margin-left 0.5s ease-in-out;
+  text-decoration: none;
+}
+.follow1:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+  margin-left: 5px;
+}
+.follow, .acc {
+  font-size: 25px;
+}
+.socials {
+  flex: 1;
+}
+.what-else {
+  flex: 1;
+}
